@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MESSAGE_BOARD_ABI } from "../lib/contract";
+import { MESSAGE_BOARD_ABI } from "../../lib/contract";
 import { useAccount, useWalletClient, usePublicClient } from "wagmi";
 import { ethers } from "ethers";
 

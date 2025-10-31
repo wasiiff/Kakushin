@@ -1,7 +1,7 @@
-import WalletInfo from "../components/WalletInfo";
-import MessageBoard from "../components/MessageBoard";
-import TokenList from "../components/TokenList";
-import Header from "../components/Header";
+import WalletInfo from "./components/WalletInfo;
+import MessageBoard from "./components/MessageBoard;
+import TokenList from "./components/TokenList;
+import Header from "./components/Header;
 
 export default function Page() {
   return (
