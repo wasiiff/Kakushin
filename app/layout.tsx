@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { ReactNode } from "react";
-import Providers from "./components/Providers;
+import Providers from "./components/Providers";
 
 export const metadata = {
   title: "Web3 Dashboard - Multi-chain Wallet & Contract Interface",
