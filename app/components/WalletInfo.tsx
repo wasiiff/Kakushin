@@ -89,7 +89,7 @@ export default function WalletInfo() {
         <div className="font-mono text-sm break-all text-gray-800 font-semibold">
           {address?.slice(0, 6)}...{address?.slice(-4)}
         </div>
-        <div className="text-xs text-gray-500 mt-1 font-mono">{address}</div>
+        <div className="text-xs text-gray-500 mt-1 font-mono truncate">{address}</div>
       </div>
 
       <div className="grid grid-cols-1 gap-3">
